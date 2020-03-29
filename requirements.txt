@@ -1,0 +1,7 @@
+numpy==1.18.2
+dicom==0.9.9.post1
+jupyter
+pydicom==1.4.1
+nibabel==2.5.1
+niwidgets==0.2.2
+matplotlib==3.1.2
