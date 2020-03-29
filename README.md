@@ -7,7 +7,7 @@ Polytechnique Montreal course "Principes d'imagerie biomédicales".
 Click on the Binder badge:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcohenadad/GBM8378/master)
 
-Wait for Binder to build, then click on the Jupyter notebook. E.g.: under `lab3-irm/gbm8378-lab3-irm.ipynb`.
+Wait for Binder to build (can take 5-10 minutes), then click on the Jupyter notebook. E.g.: under `lab3-irm/gbm8378-lab3-irm.ipynb`.
 
 ## Getting started (on local station)
 
