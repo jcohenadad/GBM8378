@@ -1,10 +1,15 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcohenadad/GBM8378/master)
-
 # GBM8378
 
 Polytechnique Montreal course "Principes d'imagerie biomédicales".
 
-## Getting started
+## Getting started (with Binder)
+
+Click on the Binder badge:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcohenadad/GBM8378/master)
+
+Wait for Binder to build, then click on the Jupyter notebook. E.g.: under `lab3-irm/gbm8378-lab3-irm.ipynb`.
+
+## Getting started (on local station)
 
 Clone this repository:
 ```bash
