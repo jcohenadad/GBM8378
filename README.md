@@ -12,7 +12,7 @@ cd GBM8378
 
 [Install miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
-Then, run the following to create virtual environment:
+Then, run the following to create virtual environment and start the notebook:
 
 ```bash
 conda create -n env-gbm8378 python=3.6  # Only do it once
