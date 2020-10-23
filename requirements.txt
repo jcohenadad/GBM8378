@@ -5,3 +5,4 @@ pydicom==1.4.1
 nibabel==2.5.1
 niwidgets==0.2.2
 matplotlib==3.1.2
+skimage==0.17.2
