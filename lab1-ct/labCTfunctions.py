@@ -7,13 +7,14 @@ Dependencies
     - skimage
 
 Guillaume Sheehy
-2020-01-29
+Gaspard Cereza
+2020-10-30
 '''
 
 # %% Imports
 import numpy as np
 import skimage.data
-from scipy.ndimage.interpolation import rotate
+from scipy.ndimage import rotate
 from skimage.transform import radon
 
 # %% Tools
@@ -49,12 +50,9 @@ def retroprojection(sinogram, angles):
     s = sinogram.shape[0]
     image = np.zeros((s, s))
     for angle in angles:
-        angle = int(angle)
-        retro_projection = np.array([sinogram[:, angle]
-                                     for _ in range(sinogram.shape[0])])
+        retro_projection = np.tile(sinogram[:, int(angle)],(sinogram.shape[0], 1))
         image += rotate(retro_projection, angle, reshape=False)
     return image
-
 
 def do_sinogram(image, angles):
     """
