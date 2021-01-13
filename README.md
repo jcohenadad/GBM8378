@@ -29,3 +29,6 @@ pip install -r requirements.txt  # Only do it once (or if there was any change i
 # Start lab3 notebook:
 jupyter notebook lab3-irm/gbm8378-lab3-irm.ipynb
 ```
+
+## Create PDF
+While on the jupyter notebook, print the page and export/save as PDF.
