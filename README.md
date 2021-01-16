@@ -31,7 +31,7 @@ pip install -r requirements.txt  # Only do it once (or if there was any change i
 # Start lab3 notebook:
 jupyter notebook lab3-irm/gbm8378-lab3-irm.ipynb
 ```
-**Make sure that you have the last version of the files by cloning the repo before every new lab.** Move your Notebooks elsewhere if you don't want them to be overwritten by the new clone. 
+**Make sure that you have the last version of the files by pulling the repo before every new lab** (`git pull`). Move your Notebooks elsewhere if you don't want them to be overwritten by the new clone. 
 
 ## Create PDF
 While on the jupyter notebook, print the page and export/save as PDF.
