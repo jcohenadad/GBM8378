@@ -2,6 +2,12 @@
 
 Polytechnique Montreal course "Principes d'imagerie biomédicale".
 
+This repository includes the lab material for the course 
+
+## Documentation and Ressource
+
+To get started with Python, we recommend [this excellent tutorial](https://www.youtube.com/playlist?list=PLnzBBbvhjz4X3htDbNF0aJEDVtny48GI0) (in French) made by Guillaume Sheehy. 
+
 ## Getting started (with Binder)
 
 Click on the Binder badge:
