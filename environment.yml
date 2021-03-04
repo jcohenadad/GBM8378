@@ -3,6 +3,7 @@ name: env-GBM8378
 dependencies:
   - pip
   - ffmpeg
+  - python=3.6
   - pip:
     - numpy==1.18.2
     - dicom==0.9.9.post1
