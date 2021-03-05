@@ -19,9 +19,9 @@ Wait for Binder to finish building the environment (can take 5-10 minutes), then
 
 ## Getting started (on local station)
 
-1) You will need to [install miniconda](https://docs.conda.io/en/latest/miniconda.html) in order to set-up your python environment.
+#### 1) You will need to [install miniconda](https://docs.conda.io/en/latest/miniconda.html) in order to set-up your python environment.
 
-2) Clone this GitHub repository on your computer:
+#### 2) Clone this GitHub repository on your computer:
 ```bash
 git clone https://github.com/jcohenadad/GBM8378.git
 cd GBM8378
@@ -29,7 +29,7 @@ cd GBM8378
 - For Windows user, you might need to [install git](https://git-scm.com/downloads) prior to clone the repository.
 - If git clone is not working, you can download the zipped version of the repository and unzip it locally on your computer.
 
-3) Once miniconda is installed and the repository is cloned, run the following commands in order to create your virtual environment and start the jupyter notebook:
+#### 3) Once miniconda is installed and the repository is cloned, run the following commands in order to create your virtual environment and start the jupyter notebook:
 
 Then, run the following to create a virtual environment and start the notebook:
 
