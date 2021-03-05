@@ -111,18 +111,21 @@ def prepare_animation(RF, fovx, fovz):
     def animate(i, RF):
         ampl_max = abs(RF).max()
         ax[0].imshow(RF[:, :, i], extent=fov, vmin=-ampl_max, vmax=ampl_max, cmap='bwr')
-        ax[0].set_title("Ultrasound wave propagation", fontsize=20)
+        ax[0].set_title("Ultrasound wave propagation", fontsize=15)
         ax[0].set_xlabel('Distance (mm)')
         ax[0].set_ylabel('Distance (mm)')
 
     anim = animation.FuncAnimation(fig, animate, frames=range(0, RF.shape[2], 20), interval=100, fargs=(RF,))
     plt.close()
-    ax[1].imshow(RF[:, :, RF.shape[2]//2], extent=fov, cmap='bwr')
+    ampl_max = abs(RF[:, :, RF.shape[2] // 2]).max()
+    im1 = ax[1].imshow(RF[:, :, RF.shape[2] // 2], extent=fov, vmin=-ampl_max, vmax=ampl_max, cmap='bwr')
     ax[1].set_xlabel('Distance (mm)')
     ax[1].set_ylabel('Distance (mm)')
+    fig.colorbar(im1, ax=ax[1], orientation="horizontal")
 
-    ax[2].imshow(np.abs(RF).sum(axis=2), extent=fov, cmap='inferno')
-    ax[2].set_title('Intégration temporelle du champ de propagation')
+    im2 = ax[2].imshow(np.abs(RF).sum(axis=2), extent=fov, cmap='inferno')
+    ax[2].set_title('Intégration temporelle \ndu champ de propagation', fontsize=15)
     ax[2].set_xlabel('Distance (mm)')
     ax[2].set_ylabel('Distance (mm)')
+    fig.colorbar(im2, ax=ax[2], orientation="horizontal")
     return anim
