@@ -31,6 +31,8 @@ cd GBM8378
 
 3) Once miniconda is installed and the repository is cloned, run the following commands in order to create your virtual environment and start the jupyter notebook:
 
+Then, run the following to create a virtual environment and start the notebook:
+
 ```bash
 conda env create -f environment.yml # Only do it once in order to create the environment (might take a few minutes)
 
@@ -38,6 +40,7 @@ conda env create -f environment.yml # Only do it once in order to create the env
 conda activate env-gbm8378  # Do it everytime you wish to run the notebook
 jupyter notebook  
 ```
+
 - Make sure that your prompt is currently on the `GBM8378` folder when you call the `environment.yml` file.
 - For Windows user, you might need to type these commands in `Anaconda Prompt` if `cmd` does not recognize `conda`.
 
