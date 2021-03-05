@@ -19,24 +19,31 @@ Wait for Binder to finish building the environment (can take 5-10 minutes), then
 
 ## Getting started (on local station)
 
-Clone this repository:
+1) You will need to [install miniconda](https://docs.conda.io/en/latest/miniconda.html) in order to set-up your python environment.
+
+2) Clone this GitHub repository on your computer:
 ```bash
 git clone https://github.com/jcohenadad/GBM8378.git
 cd GBM8378
 ```
+- For Windows user, you might need to [install git](https://git-scm.com/downloads) prior to clone the repository.
+- If git clone is not working, you can download the zipped version of the repository and unzip it locally on your computer.
 
-[Install miniconda](https://docs.conda.io/en/latest/miniconda.html)
+3) Once miniconda is installed and the repository is cloned, run the following commands in order to create your virtual environment and start the jupyter notebook:
 
 Then, run the following to create a virtual environment and start the notebook:
 
 ```bash
-conda create -n env-gbm8378 python=3.6  # Only do it once
-conda activate env-gbm8378  # Do it everytime you wish to run the notebook
-pip install -r requirements.txt  # Only do it once (or if there was any change in the repository)
+conda env create -f environment.yml # Only do it once in order to create the environment (might take a few minutes)
 
-# Start lab3 notebook:
-jupyter notebook lab3-irm/gbm8378-lab3-irm.ipynb
+# Start the jupyter notebooks:
+conda activate env-gbm8378  # Do it everytime you wish to run the notebook
+jupyter notebook  
 ```
+
+- Make sure that your prompt is currently on the `GBM8378` folder when you call the `environment.yml` file.
+- For Windows user, you might need to type these commands in `Anaconda Prompt` if `cmd` does not recognize `conda`.
+
 **Make sure that you have the last version of the files by pulling the repo before every new lab** (`git pull`). Move your Notebooks elsewhere if you don't want them to be overwritten by the new clone. 
 
 ## Create PDF
