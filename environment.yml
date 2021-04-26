@@ -6,7 +6,6 @@ dependencies:
   - python=3.6
   - pip:
     - numpy==1.18.2
-    - dicom==0.9.9.post1
     - jupyter
     - pydicom==1.4.1
     - nibabel==2.5.1
