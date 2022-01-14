@@ -24,10 +24,11 @@ Wait for Binder to finish building the environment (can take 5-10 minutes), then
 #### 2) Clone this GitHub repository on your computer:
 ```bash
 git clone https://github.com/jcohenadad/GBM8378.git
+git checkout r20220114
 cd GBM8378
 ```
 - For Windows user, you might need to [install git](https://git-scm.com/downloads) prior to clone the repository.
-- If git clone is not working, you can download the zipped version of the repository and unzip it locally on your computer.
+- If git clone is not working, you can download the most [recent release](https://github.com/jcohenadad/GBM8378/releases) of the repository on your computer.
 
 #### 3) Once miniconda is installed and the repository is cloned, run the following commands in order to create your virtual environment and start the jupyter notebook:
 
