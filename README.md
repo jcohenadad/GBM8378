@@ -25,7 +25,7 @@ Wait for Binder to finish building the environment (can take 5-10 minutes), then
 ```bash
 git clone https://github.com/jcohenadad/GBM8378.git
 cd GBM8378
-git checkout $(git describe --tags `git rev-list --tags --max-count=1`)
+git checkout r20220114
 ```
 - For Windows user, you might need to [install git](https://git-scm.com/downloads) prior to clone the repository.
 - If git clone is not working, you can download the most [recent release](https://github.com/jcohenadad/GBM8378/releases) of the repository on your computer.
