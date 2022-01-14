@@ -21,11 +21,11 @@ Wait for Binder to finish building the environment (can take 5-10 minutes), then
 
 #### 1) You will need to [install miniconda](https://docs.conda.io/en/latest/miniconda.html) in order to set-up your python environment.
 
-#### 2) Clone this GitHub repository on your computer:
+#### 2) Clone this GitHub repository on your computer and select the latest release:
 ```bash
 git clone https://github.com/jcohenadad/GBM8378.git
-git checkout r20220114
 cd GBM8378
+git checkout $(git describe --tags `git rev-list --tags --max-count=1`)
 ```
 - For Windows user, you might need to [install git](https://git-scm.com/downloads) prior to clone the repository.
 - If git clone is not working, you can download the most [recent release](https://github.com/jcohenadad/GBM8378/releases) of the repository on your computer.
