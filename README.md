@@ -38,7 +38,7 @@ Then, run the following to create a virtual environment and start the notebook:
 conda env create -f environment.yml # Only do it once in order to create the environment (might take a few minutes)
 
 # Start the jupyter notebooks:
-conda activate env-gbm8378  # Do it everytime you wish to run the notebook
+conda activate env-GBM8378  # Do it everytime you wish to run the notebook
 jupyter notebook  
 ```
 
