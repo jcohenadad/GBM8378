@@ -11,7 +11,7 @@ To get started with Python, we recommend [this excellent tutorial](https://www.y
 ## Getting started (with Binder)
 
 Click on the Binder badge:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcohenadad/GBM8378/r20220114?urlpath=/tree/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcohenadad/GBM8378/r20220114)
 
 Wait for Binder to finish building the environment (can take 5-10 minutes), then click on the Jupyter notebook. E.g.: under `lab3-irm/gbm8378-lab3-irm.ipynb`.
 
