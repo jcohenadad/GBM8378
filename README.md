@@ -1,51 +1,47 @@
 # GBM8378
 
-Polytechnique Montreal course "Principes d'imagerie biomédicale".
+Cours "Principes d'imagerie biomédicale" à Polytechnique Montréal.
 
-This repository includes the lab material for the course
+Ce répertoire contient le matériel de laboratoire pour ce cours.
 
-## Documentation and Ressource
+## Documentation et ressources
 
-To get started with Python, we recommend [this excellent tutorial](https://www.youtube.com/playlist?list=PLnzBBbvhjz4X3htDbNF0aJEDVtny48GI0) (in French) made by Guillaume Sheehy.
+Pour débuter avec Python, on recommande [cet excellent ](https://www.youtube.com/playlist?list=PLnzBBbvhjz4X3htDbNF0aJEDVtny48GI0) tutoriel par Guillaume Sheehy.
 
-## Getting started (with Binder)
-
-Click on the Binder badge:
+## Mise en route (avec Binder)
+Cliquez sur l'icône Binder:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcohenadad/GBM8378/HEAD?urlpath=%2Ftree%2F)
 
-Wait for Binder to finish building the environment (can take 5-10 minutes), then click on the Jupyter notebook. E.g.: under `lab3-irm/gbm8378-lab3-irm.ipynb`.
+Attendre que Binder termine de créer l'environnement (peut prendre 5-10 minutes), après cliquez sur le Jupyter notebook. Ex.: sous `lab3-irm/GBM8378-lab3-IRM.ipynb`.
 
-**Warning:** After 10 minutes of inactivity, binder will stop working and you will have to launch it again. [Save your work](https://discourse.jupyter.org/t/getting-your-notebook-after-your-binder-has-stopped/3268) before closing it or it will be lost !
+**Attention:** Après 10 d'inactivité, Binder va s'arrêter et vous devrez le relancer à nouveau. [Enregistrez votre travail](https://discourse.jupyter.org/t/getting-your-notebook-after-your-binder-has-stopped/3268) avant de fermer le notebook ou il sera perdu.
 
-## Getting started (on local station)
-
-#### 1) You will need to [install miniconda](https://docs.conda.io/en/latest/miniconda.html) in order to set-up your python environment.
-
-#### 2) Clone this GitHub repository on your computer and select the latest release:
+## Mise en route (sur poste informatique local)
+#### 1) [Installer miniconda](https://docs.conda.io/en/latest/miniconda.html) pour préparer l'environnement python.
+#### 2) Cloner ce répertoire GitHub sur votre ordinateur et sélectionner la dernière version:
 ```bash
 git clone https://github.com/jcohenadad/GBM8378.git
 cd GBM8378
 git checkout r20230109
 ```
-- For Windows user, you might need to [install git](https://git-scm.com/downloads) prior to clone the repository.
-- If git clone is not working, you can download the most [recent release](https://github.com/jcohenadad/GBM8378/releases) of the repository on your computer.
+- Pour les usagers Windows, vous devrez peut-être [installer git](https://git-scm.com/downloads) avant de cloner ce répertoire GitHub.
+- Si `git clone` ne fonctionne pas, vous pouvez télécharger directement la [dernière version](https://github.com/jcohenadad/GBM8378/releases) de ce répertoire sur votre ordinateur.
 
-#### 3) Once miniconda is installed and the repository is cloned, run the following commands in order to create your virtual environment and start the jupyter notebook:
+#### 3) Une fois que miniconda est installée et que ce répertoire est cloné, lancez les commandes suivantes pour créer votre environnement virtuel et lancez jupyter notebook:
 
-Then, run the following to create a virtual environment and start the notebook:
+Après, lancez les commandes suivantes pour créer l'environnement virtuel et ouvrir le notebook.
 
 ```bash
-conda env create -f environment.yml # Only do it once in order to create the environment (might take a few minutes)
+conda env create -f environment.yml # Seulement pour créer l'environnement (peut prendre quelques minutes)
 
-# Start the jupyter notebooks:
-conda activate env-GBM8378  # Do it everytime you wish to run the notebook
+# Lancer le jupyter notebook:
+conda activate env-GBM8378  # À faire à chaque fois que vous voulez lancer le notebook
 jupyter notebook  
 ```
+- Assurez-vous que sur votre terminal, vous êtes bien dans le dossier `GBM8378` lorsque vous appelez le fichier `environment.yml`
+- Pour les usagers Windows, vous devrez peut-être écrire ces commandes dans `Anaconda Prompt` si `cmd`ne reconnait pas `conda`.
 
-- Make sure that your prompt is currently on the `GBM8378` folder when you call the `environment.yml` file.
-- For Windows user, you might need to type these commands in `Anaconda Prompt` if `cmd` does not recognize `conda`.
+**Assurez-vous d'avoir la dernière version des fichiers en effectuant un `git pull` du répertoire avant chaque nouveau laboratoire**. Déplacez vos Notebooks ailleurs si vous ne voulez pas qu'ils soient écrasés par la dernière version.
 
-**Make sure that you have the last version of the files by pulling the repo before every new lab** (`git pull`). Move your Notebooks elsewhere if you don't want them to be overwritten by the new clone.
-
-## Create PDF
-While on the jupyter notebook, print the page and export/save as PDF.
+## Créer PDF
+Sur le jupyter notebook, imprimez la page et exporter/enregistrer au format PDF.
