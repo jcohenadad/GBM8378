@@ -22,7 +22,7 @@ Attendre que Binder termine de créer l'environnement (peut prendre 5-10 minutes
 ```bash
 git clone https://github.com/jcohenadad/GBM8378.git
 cd GBM8378
-git checkout r20230109
+git checkout r20240122
 ```
 - Pour les usagers Windows, vous devrez peut-être [installer git](https://git-scm.com/downloads) avant de cloner ce répertoire GitHub.
 - Si `git clone` ne fonctionne pas, vous pouvez télécharger directement la [dernière version](https://github.com/jcohenadad/GBM8378/releases) de ce répertoire sur votre ordinateur.
