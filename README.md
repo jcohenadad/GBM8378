@@ -17,7 +17,7 @@ Sur la page d'[installation](https://docs.anaconda.com/miniconda/install/#instal
 ```bash
 git clone https://github.com/jcohenadad/GBM8378.git
 cd GBM8378
-git checkout r20240122
+git checkout r20241218
 ```
 - Pour les usagers Windows, vous devrez peut-être [installer git](https://git-scm.com/downloads) avant de cloner ce répertoire GitHub.
 - Si `git clone` ne fonctionne pas, vous pouvez télécharger directement la [dernière version](https://github.com/jcohenadad/GBM8378/releases) de ce répertoire sur votre ordinateur.
